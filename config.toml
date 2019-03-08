@@ -1,0 +1,65 @@
+baseurl         = "https://mysite.com"
+theme           = "casper-two"
+languageCode    = "en-US"
+disqusShortname = ""
+paginate        = 6
+#SectionPagesMenu = "main"
+canonifyurls    = true
+
+[params]
+  title       = "Hugo Casper Two"
+  subtitle    = "Hugo tryout site for concrete understanding."
+  copyright   = "© 2018"
+
+  cover       = "img/blog-cover.jpg"
+  description = "Here is a description of your site."
+  metaDescription = ""
+  googleAnalytics = ""
+  customCSS = []
+  RSSLink = ""
+
+  twitterName = "rez73538475"
+  fbName = "Preyash Hojiwala"
+  githubName = "eueung"
+  linkedinName = "eueung"
+  mediumName = ""
+
+  logo = "hugo-logo.png"
+  orgName = "EM"
+  orgWebsite = "https://www.telematika.org"
+  orgDescription = "Here is a description placeholder for your org"
+
+  showSupport = true
+
+  author = "Preyash Hojiwala"
+  authorAvatar = "img/ghost-icon.png"
+  authorLocation = "Surat, IN"
+  authorDescription = "Number 1ne"
+
+  pageNotFoundTitle = "404 - Page not found"
+
+  #casper or caspertwo
+  singleViewStyle = "casper"
+
+[permalinks]
+  post = "/post/:slug/"
+
+[[menu.main]]
+  name = "Main"
+  url = "/"
+  weight = 200
+
+[[menu.main]]
+  name = "Project"
+  url = "/tags/project/"
+  weight = 100
+
+[[menu.main]]
+  name = "Life"
+  url = "/categories/life"
+  weight = 99
+
+[[menu.main]]
+  name = "Google"
+  url = "https://google.com/"
+  weight = 95
